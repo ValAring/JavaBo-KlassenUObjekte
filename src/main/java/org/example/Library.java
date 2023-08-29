@@ -13,8 +13,8 @@ public class Library {
         //myBooks[2] = new Book("Mobile Business", "Erich Staudt", "3-363117-12-X");
     }
 
-    public void addBooksToLib(Book newBook){
-        myBooks[0] = newBook;
+    public void addBooksToLib(int a, Book newBook){
+        myBooks[a] = newBook;
     }
 
     @Override
